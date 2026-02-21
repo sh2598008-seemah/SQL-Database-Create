@@ -1,5 +1,4 @@
 # SQL-Database-Create
-# Employee Table
 CREATE TABLE employees (
     employee_id INT,
     first_name VARCHAR(50),
