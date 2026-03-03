@@ -1,5 +1,4 @@
 # SQL-Database-Create
-# Database management system(RDMS)
 CREATE TABLE employees (
     employee_id INT,
     first_name VARCHAR(50),
