@@ -1,0 +1,44 @@
+# Hotel Mnagement System Database 
+---The Hotel Management System Database is a relational database project designed
+to manage the core operations of a hotel, including customer management,
+room allocation, booking records, and payment tracking.
+---This project demonstrates how structured databases help hotels organize operational data
+efficiently, maintain room availability, and manage reservations with accuracy.
+---The database is implemented using SQL and follows database normalization and relational design
+principles to ensure data consistency, integrity, and efficient querying.
+🗃️Database Normalization
+---1NF – Eliminates repeating groups
+---2NF – Removes partial dependency
+---3NF – Eliminates transitive dependency
+⚙️ Technologies Used
+---MySQL
+---SQL Queries
+---Relational Database Design
+---Primary Keys & Foreign Keys
+---Joins and Constraints
+📊 Use Cases
+---Hotel reservation management
+---Customer data management
+---Booking and room allocation
+---Financial transaction tracking
+📌 Learning Outcomes
+---Database schema design
+---SQL query writing
+---Data normalization
+---Table relationships and constraints
+---Data retrieval using joins
+📌ER Diagram
+Customer
+   |
+   | 1
+   |------< Booking >------| 1
+                           |
+                         Room
+
+Booking
+   |
+   | 1
+   |------< Payment
+
+
+
